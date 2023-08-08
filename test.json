@@ -1,0 +1,25 @@
+{
+    "openmpi": {
+        "versions": [
+            "main"
+        ],
+        "child_pkgs": {
+            "numactl": {
+                "versions": [
+                    "2.0.14",
+                    "2.0.12",
+                    "2.0.11"
+                ],
+                "child_pkgs": {
+                    "autoconf": {
+                        "versions": [
+                            "2.71",
+                            "2.70",
+                            "2.62",
+                            "2.59"
+                        ]}
+                    }
+                }
+            }
+        }
+    }
